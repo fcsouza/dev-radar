@@ -14,6 +14,7 @@ setupWebsocket(server);
 mongoose.set("useCreateIndex", true);
 
 mongoose.connect(
+  //mongodb+srv://fabriciosouza:dbname@cluster0-aue5v.mongodb.net/devradar?retryWrites=true&w=majority
   `${process.env.MONGO}`,
   {
     useNewUrlParser: true,
